@@ -1,0 +1,23 @@
+{
+  "name": "cloud-vault-render",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "NODE_ENV=development node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "zod": "^3.25.76",
+    "pg": "^8.16.3",
+    "drizzle-orm": "^0.39.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "cloudinary": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
