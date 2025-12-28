@@ -1,23 +1,23 @@
 {
   "name": "cloud-vault-render",
   "version": "1.0.0",
-  "type": "module",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "dev": "NODE_ENV=development node server/index.js"
   },
   "dependencies": {
-    "express": "^4.21.2",
-    "multer": "^2.0.2",
-    "zod": "^3.25.76",
-    "pg": "^8.16.3",
-    "drizzle-orm": "^0.39.3",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^16.0.0",
-    "cloudinary": "^2.0.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "cloudinary": "^1.41.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.11.3",
+    "drizzle-orm": "^0.29.3",
+    "drizzle-zod": "^0.4.0",
+    "zod": "^3.22.4"
   }
 }
